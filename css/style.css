@@ -1,30 +1,14 @@
-h1 {
-    display: inline-block;
-    position: relative;
-    left: 0;
-    margin-left: 150px;
-    height: 100%;
-    width: 200px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    size: 100px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+nav{
+    background-color: white;
 }
 
-ul {
-    margin-right: 50px;
-    float: right;
-    height: 100%;
-    text-align: center;
+.navbar-link{
+    padding: 15px 5px;
 }
 
-/*main css for all pages*/
 .background {
     background-repeat: repeat;
-    background-color: #white;
+    background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -36,8 +20,24 @@ ul {
     position: relative;
 }
 
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    margin-left: 150px;
+    height: 100%;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    /* size: 100px; */
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
 h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Raleway', sans-serif;
     color: #4aaaa5;
     border-bottom: 2px solid #cccccc;
     font-size: 35px;
@@ -55,7 +55,6 @@ h3 {
 }
 
 section {
-    float: left;
     display: inline-block;
     padding: 0px 10px 10px 10px;
 }
@@ -64,8 +63,6 @@ section {
 /*for 
 portfolio grid*/
 .inner-grid {
-    /* display: block; */
-    /* margin: auto; */
     width: 960px;
 }
 
@@ -102,72 +99,21 @@ footer {
     color: #ffffff;
 } 
 
-@media screen and (max-width: 980px) {
-    .container{}
-    nav{}
-    h1{}
-    ul{}
-    li{}
-    body{}
-    main{}
-    h2{}
-    h3{}
-    section{}
-    div{}
-    .inner grid{}
-    .project{}
-    .project img{}
-    .project h2{}
-    button{}
-    footer{}
-}
+
 
 @media screen and (max-width: 768px) {
-    .container{}
-    nav{}
-    h1{}
-    ul{}
-    li{}
-    body{}
-    main{}
-    h2{}
-    h3{}
-    section{}
-    div{}
-    .inner grid{}
     .project{
-        border: 1px solid red; 
         margin:auto;
         display: block;
         width: 80%;
     }
-    .project img{}
-    .project h2{}
-    button{}
-    footer{}
 }
 
 @media screen and (max-width: 640px) {
-    .container{}
-    nav{}
-    h1{}
-    ul{}
-    li{}
-    body{}
-    main{}
-    h2{}
-    h3{}
-    section{}
-    div{}
-    .inner grid{}
     .project{
         margin:auto;
         float: none;
         display: block;
         width: 300px;
     }
-    .project img{}
-    .project h2{}
-    button{}
-    footer{}
 }
