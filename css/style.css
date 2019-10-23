@@ -7,6 +7,7 @@ nav{
 }
 
 .background {
+    background-image: url("designbig.jpg");
     background-repeat: repeat;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -85,21 +86,6 @@ portfolio grid*/
     color: #ffffff;
     text-align: center;
 } 
-
-footer {
-    position: fixed;
-    z-index: 2;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    color: #ffffff;
-} 
-
-
 
 @media screen and (max-width: 768px) {
     .project{
